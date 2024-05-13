@@ -1,4 +1,9 @@
-class Stack { 
+/*
+ * Time Complexity: O(1) (push, pop, peek, isEmpty)
+ * Space Complexity: O(1)
+ * */
+
+class Stack {
     //Please read sample.java file before starting.
   //Kindly include Time and Space complexity at top of each file
     static final int MAX = 1000; 

@@ -1,5 +1,10 @@
 // Java program to implement
-// a Singly Linked List 
+// a Singly Linked List
+
+/*
+ * Time Complexity: O(n) (insert, printList)
+ * Space Complexity: O(1) (insert, printList)
+ * */
 public class LinkedList { 
   
     Node head; // head of list 

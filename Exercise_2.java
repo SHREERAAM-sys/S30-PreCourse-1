@@ -1,4 +1,11 @@
-class StackAsLinkedList { 
+
+/*
+ * Time Complexity: O(1) (isEmpty, peek, push)
+ * Time Complexity: O(n) (pop)
+ *
+ * Space Complexity: O(1)
+ * */
+class StackAsLinkedList {
   
     StackNode root; //represents head of the singlyLinked list
 
@@ -74,7 +81,7 @@ class StackAsLinkedList {
         //Write code to just return the topmost element without removing it.
 
         if(root == null){
-            System.out.println("Stack is empty");
+            System.out.println("Stack Underflow");
             return -1;
         }
 
